@@ -1,0 +1,54 @@
+body {
+    background-color: lightgrey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: red;
+    color: white;
+}
+
+p,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: black;
+}
+
+
+img {
+    height: 500px;
+    width: auto;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container.ingredient {
+    display: flex;
+    justify-content: center;
+}
+
+.container.steps {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    color: black;
+}
